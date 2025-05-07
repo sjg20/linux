@@ -1,3 +1,30 @@
+linux-qcom-x1e (6.14.0-33.33) oracular; urgency=medium
+
+  [ Konrad Dybcio ]
+  * dt-bindings: phy: qcom,qmp-pcie: Add X1P42100 PCIe Gen4x4 PHY
+  * dt-bindings: phy: qcom,qmp-pcie: Drop reset number constraints
+
+  [ Aleksandrs Vinarskis ]
+  * phy: qcom: qmp-pcie: Add X1P42100 Gen4x4 PHY
+
+  [ Konrad Dybcio ]
+  * phy: qcom: pcie: Determine has_nocsr_reset dynamically
+
+  [ Qiang Yu ]
+  * phy: qcom: qmp-pcie: Add PHY register retention support
+
+  [ Bjorn Andersson ]
+  * phy: qcom: phy-qcom-snps-eusb2: Make repeater optional
+
+  [ Aleksandrs Vinarskis ]
+  * dt-bindings: usb: Add Parade PS8833 Type-C retimer variant
+  * dt-bindings: arm: qcom: Add Asus Zenbook A14
+  * firmware: qcom: scm: Allow QSEECOM on Asus Zenbook A14
+  * arm64: dts: qcom: Add support for X1-based Asus Zenbook A14
+  * arm64: dts: qcom: support sound on Asus Zenbook A14
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Wed, 07 May 2025 13:47:52 +0200
+
 linux-qcom-x1e (6.14.0-32.32) oracular; urgency=medium
 
   * Drop HP patches in favor UBUNTU: SAUCE: Revert "usb: typec: ps883x: fix missing accessibility check"
